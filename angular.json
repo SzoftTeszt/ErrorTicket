@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "ErrorTicket": {
+      
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -25,6 +26,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "59609acb-6657-4bbd-a3a0-8ccb012aad44"
   }
 }
